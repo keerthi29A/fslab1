@@ -1,0 +1,84 @@
+.post-card {
+    display: flex;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    background: linear-gradient(135deg, #f0f4f8 10%, #d6e9f9 100%);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 3px solid #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-content {
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h2 {
+    font-size: 1.6em;
+    color: #2b7a78;
+    margin-bottom: 10px;
+  }
+  
+  .post-body {
+    font-size: 1.1em;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .post-tags {
+    margin-top: 10px;
+  }
+  
+  .tag {
+    background-color: #2b7a78;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 8px;
+    border-radius: 20px;
+    font-size: 0.85em;
+  }
+  
+  .post-info {
+    font-size: 0.85em;
+    color: #888;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .user-name {
+    color: #2b7a78;
+  }
+  
+  .post-reactions {
+    margin-top: 15px;
+  }
+  
+  .reaction-btn {
+    background: none;
+    border: none;
+    color: #2b7a78;
+    font-size: 1em;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .reaction-btn:hover {
+    text-decoration: underline;
+  }
+  
